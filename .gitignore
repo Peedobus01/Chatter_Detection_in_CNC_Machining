@@ -5,6 +5,8 @@ __pycache__/
 
 # Data files (Do not commit large raw datasets to GitHub!)
 data/raw/*.csv
+!data/sample/
+!data/sample/*.csv
 
 
 # Model weights
