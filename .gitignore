@@ -3,10 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Data files (Do not commit large datasets to GitHub)
+# Data files (Do not commit large raw datasets to GitHub!)
 data/raw/*.csv
-data/processed/*.csv
-*.csv
+
 
 # Model weights
 *.pth
