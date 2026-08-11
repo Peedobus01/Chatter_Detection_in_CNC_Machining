@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Do not commit large datasets to GitHub)
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.pkl
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Figures (optional, but good if they get too large)
+# figures/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+.env
